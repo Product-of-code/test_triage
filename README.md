@@ -25,10 +25,15 @@ triage assistant).
 - **Design takeaways applied in this project:** because under-triage is the most dangerous failure, this tool uses
   hard-coded red-flag rules that always escalate to Emergency, picks the more urgent level on ties, and always shows a
   disclaimer.
-
+  - **Real-world safety evidence is mixed.** In a 2024 prospective study at a Swiss hospital, an AI symptom checker
+  (the SMASS Pathfinder, built on a transparent neural network) was used with 2,543 adult patients. Researchers compared
+  its recommendations with expert panel reviews and found no strictly defined case of hazardous undertriage. Over-triage
+  was about 18%. The authors concluded it appeared safe in that setting. This contrasts with the 2022 app-comparison study
+  and shows results depend heavily on the specific tool. *(Meer et al., Journal of Medical Internet Research, 2024.)*
 ### Sources
 - [Triage Accuracy of Symptom Checker Apps: 5-Year Follow-up Evaluation (JMIR, 2022)](https://doaj.org/article/ee5dee6d03d842c19d9b41472dbb7dc4)
 - [Ada Health deploys its symptom assessment and care navigation tech across Jefferson Health (MedCity News, 2023)](https://medcitynews.com/2023/04/ada-health-deploys-its-symptom-assessment-care-navigation-tech-across-jefferson-health/)
+- [A Symptom-Checker for Adult Patients Visiting an Interdisciplinary Emergency Care Center and the Safety of Patient Self-Triage (JMIR, 2024)](https://doaj.org/article/9695fe7126364552bcdd38e611c7b36d)
 
 ## How it works
 1. **Tokenization** – split text into words.
