@@ -7,6 +7,7 @@ possible condition categories plus a suggested **triage level**: Emergency, Urge
 
 > **Disclaimer:** Educational project only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
 > In an emergency, call 911.
+> **Live demo:** https://symptom-checker-triage.streamlit.app
 
 ## Chosen innovation
 AI-powered symptom checkers / triage tools (similar in concept to commercial tools such as Ada Health or Babylon's
