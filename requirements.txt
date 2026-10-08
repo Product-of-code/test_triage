@@ -1,2 +1,2 @@
-   nltk>=3.8
-   streamlit>=1.30
+nltk>=3.8
+streamlit>=1.30
